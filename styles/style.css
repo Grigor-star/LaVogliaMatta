@@ -6,6 +6,8 @@
 body {
   background-color: #f8f9fb;
   color: black;
+  width: 100vw;
+  overflow-x: auto;
 }
 
 .container {
@@ -127,6 +129,37 @@ main {
 
 .menu-section div div p {
   font-size: 1.3vw;
+}
+
+.menu {
+  width: 93vw;
+  overflow-x: auto;
+  margin-bottom: 150px;
+  margin-left: 50px;
+}
+
+.menu-inner {
+  width: 700vw;
+  height: 100%;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.menu::-webkit-scrollbar {
+  display: none;
+}
+
+.menu-item {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 40px;
+  background-color: #fff;
+  filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.05));
+}
+
+.menu-item:hover {
+  filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.1));
 }
 
 .about aside {
