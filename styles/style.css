@@ -117,48 +117,49 @@ body {
   right: 7%;
 }
 
-.menu-section div {
+.menu-section .menu-section-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.menu-section div img {
+.menu-section .menu-section-inner img {
   width: 15vw;
 }
 
-.menu-section div .egg {
+.menu-section .menu-section-inner .egg {
   width: 9vw;
 }
 
-.menu-section div div {
+.menu-section .menu-section-inner div {
   display: flex;
   align-items: center;
   gap: 30px;
   margin-top: 200px;
 }
 
-.menu-section div div h4 {
+.menu-section .menu-section-inner div h4 {
   font-size: 2.5vw;
 }
 
-.menu-section div div p {
+.menu-section .menu-section-inner div p {
   font-size: 1.3vw;
 }
 
 .menu {
   width: 93vw;
   overflow-x: auto;
-  margin-bottom: 150px;
+  margin: 150px 0;
   margin-left: 50px;
 }
 
 .menu-inner {
   width: 700vw;
   height: 100%;
-  padding: 50px;
+  padding: 60px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .menu::-webkit-scrollbar {
@@ -166,6 +167,8 @@ body {
 }
 
 .menu-item {
+  display: flex;
+  flex-direction: column;
   width: 20vw;
   height: 20vw;
   border-radius: 40px;
@@ -175,6 +178,25 @@ body {
 
 .menu-item:hover {
   filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.1));
+}
+
+.menu-item img {
+  margin: 0 auto;
+  width: 10vw;
+}
+
+.menu-item h3 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.menu-item div {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 20%;
 }
 
 .about aside {
@@ -226,25 +248,6 @@ body {
 .map-section h1 {
   font-size: 2vw;
   margin-bottom: 50px;
-}
-
-footer {
-  width: 100vw;
-  height: 50vh;
-  background-color: #f8f9fb;
-  color: #1e1e1e;
-}
-
-.footer-inner {
-  padding: 20px 150px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-inner article div {
-  width: 1px;
-  height: 100px;
-  background-color: #1e1e1e;
 }
 
 .month-food {
@@ -330,4 +333,23 @@ footer {
   background-color: #df6751;
   color: white;
   cursor: pointer;
+}
+
+footer {
+  width: 100vw;
+  height: 20vw;
+  background-color: #f8f9fb;
+  color: #1e1e1e;
+}
+
+.footer-inner {
+  padding: 20px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-inner article div {
+  width: 1px;
+  height: 100px;
+  background-color: #1e1e1e;
 }
