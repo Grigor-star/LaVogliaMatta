@@ -13,6 +13,7 @@ function handleScroll() {
     header.classList.remove("scrolled");
     main.classList.remove("main-scrolled");
   }
+  console.log(window.location.pathname);
 }
 
 // Attach the handleScroll function to the scroll event
