@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-.menu-item html {
+html {
   scroll-behavior: smooth;
 }
 
@@ -19,6 +19,9 @@ body {
   height: 100%;
   padding: 40px 15px;
   margin: 0 auto;
+}
+.logo h3 {
+  font-size: 2vw;
 }
 
 .main {
@@ -201,6 +204,7 @@ body {
 }
 
 .menu-item h3 {
+  font-size: 2vw;
   margin-top: 20px;
   text-align: center;
 }

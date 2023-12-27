@@ -1,0 +1,101 @@
+@media screen and (max-width: 768px) {
+  .main-inner h1 {
+    font-size: 7vw;
+  }
+  .main-inner p {
+    font-size: 2vw;
+  }
+  .header-inner nav ul li a {
+    font-size: 1.7vw;
+  }
+
+  .pizza-3 {
+    bottom: 0%;
+  }
+
+  .pizza-1 {
+    bottom: 0%;
+  }
+
+  .menu-item {
+    width: 26vw;
+    height: 26vw;
+  }
+
+  .menu-item img {
+    width: 12vw;
+  }
+
+  .menu-item div p {
+    font-size: 1.7vw;
+  }
+
+  .btn-2 {
+    font-size: 1vw;
+    padding: 0.5vw 1vw;
+  }
+
+  .month-food article .item {
+    width: 23vw;
+    height: 27vw;
+  }
+
+  .month-food article .item img {
+    width: 23vw;
+  }
+
+  .month-food article .item div span h5 {
+    font-size: 1.2vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .main {
+    background: url("../assets/main-bg-mobile.jpg") no-repeat center;
+    padding-bottom: 69px;
+  }
+  .main-inner {
+    padding-top: 0;
+    margin: 0 auto;
+    margin-top: 0;
+    gap: 0;
+    padding-bottom: 0;
+  }
+
+  .container {
+    max-width: 95vw;
+    height: 100%;
+    padding: 10px 15px;
+    margin: 0 auto;
+  }
+
+  .main-inner h1 {
+    font-size: 6vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .header-inner nav {
+    display: none;
+  }
+
+  .pizza-1 {
+    bottom: 9%;
+  }
+
+  .pizza-2 {
+    width: 20vw;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+  }
+
+  .pizza-3 {
+    bottom: 10%;
+  }
+
+  .main-inner p {
+    font-size: 2vw;
+    margin-bottom: 20px;
+  }
+}
