@@ -27,5 +27,5 @@ function setActive(element) {
 
   // Add the "active" class to the clicked link
   element.classList.add("active");
-  console.log(window.location.pathname);
+  console.log(window.location.hash);
 }
