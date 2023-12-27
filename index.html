@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta
       name="viewport"
@@ -22,21 +32,49 @@
             <h3>Pizzeria La Voglia Matta</h3>
           </div>
           <nav>
-            <ul>
+            <ul class="navbar">
               <li>
-                <a href="">Home</a>
+                <a
+                  onclick="setActive(this)"
+                  class="active"
+                  href="#"
+                  >Home</a
+                >
               </li>
               <li>
-                <a href="">Packages</a>
+                <a
+                  onclick="setActive(this)"
+                  href="#Menu"
+                  >Menu</a
+                >
               </li>
               <li>
-                <a href="">Review</a>
+                <a
+                  onclick="setActive(this)"
+                  href="#About"
+                  >About Us</a
+                >
               </li>
               <li>
-                <a href="">About Us</a>
+                <a
+                  onclick="setActive(this)"
+                  href="#month-food"
+                  >Food of the Month</a
+                >
               </li>
               <li>
-                <a href="">Contact Us</a>
+                <a
+                  onclick="setActive(this)"
+                  href="#Location"
+                  >Our Location</a
+                >
+              </li>
+              <li>
+                <a
+                  onclick="setActive(this)"
+                  href="#contact"
+                  >Contact Us</a
+                >
               </li>
             </ul>
           </nav>
@@ -45,13 +83,16 @@
       <!-- / HEADER -->
       <!-- MAIN-INNER -->
       <div class="main-inner">
-        <h1>People who love to eat are always the best people.</h1>
+        <h1>
+          Welcome to Pizzeria La Voglia Matta where every slice is a delight!
+        </h1>
         <p>
-          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-          fugit, sed quia consequuntur magni<br />
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores...
+          Indulge in the artistry of flavor at Pizzeria La Voglia Matta. Where
+          every slice tells a story,<br />
+          and every bite is a celebration. Welcome to a world where<br />
+          passion meets pizza perfection – your culinary journey starts here!
         </p>
-        <button class="btn">Explore our Menu</button>
+        <button class="btn"><a href="#Menu">Explore our Menu</a></button>
       </div>
       <!-- / MAIN-INNER -->
       <!-- MAIN-INNER-IMAGES -->
@@ -82,10 +123,10 @@
         <div class="menu-section-inner">
           <h4>Our foods menus</h4>
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium<br />
-            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-            inventore
+            Explore culinary bliss with our delectable offerings at Pizzeria La
+            Voglia Matta.<br />
+            Discover a symphony of flavors in Our Foods Menus,<br />
+            where every dish is crafted to perfection for your indulgence.
           </p>
         </div>
         <img
@@ -351,23 +392,17 @@
       </aside>
       <article>
         <h1>
-          Part of the secret of success is to eat what you like and let the food
-          fight it out inside.
+          From Heritage to Hearth, A Chronicle Where Tradition and Taste Unite
+          in Culinary Harmony
         </h1>
         <p>
-          But I must explain to you how all this mistaken idea of denouncing
-          pleasure and praising pain was born and I will give you a comple I
-          must explain to you how all this mistaken idea of denouncing pleasure
-          and praising pain was bmplete account of the system But I must explain
-          to you how all this mistaken idea of denouncing pleasure and praising
-          pain was born and I will give you a complete account of the system But
-          I must explain to you how all this mistaken idea of denouncing
-          pleasure and praising pain was born and I will give you a complete
-          account of the system But I must explain to you how all this mistaken
-          idea of denouncing pleasure and praising pain was born and I will give
-          you a complete account of the system But I must explain to you how all
-          this mistaken idea of denouncing pleasure and praising pain was born
-          and I will give you a complete account of the system
+          "At Pizzeria La Voglia Matta, we go beyond the ordinary, transcending
+          pizza-making into an art form. Established with a passion for flavors
+          and a commitment to quality, our pizzeria is a haven for food
+          enthusiasts. From our kitchen to your table, each dish is a testament
+          to our dedication to culinary excellence. Join us on a journey of
+          taste and tradition, where every bite tells a story of our love for
+          great food."
         </p>
         <img
           src=""
@@ -376,7 +411,9 @@
     </section>
     <!-- / ABOUT -->
     <!-- FOOD OF THE MONTH -->
-    <section class="month-food">
+    <section
+      id="month-food"
+      class="month-food">
       <div class="mf-content">
         <h1>Food of the Month</h1>
         <p>
@@ -435,11 +472,13 @@
           </div>
         </div>
       </article>
-      <button class="btn">Explore our Menu</button>
+      <button class="btn"><a href="#Menu">Explore our Menu</a></button>
     </section>
     <!-- / FOOD OF THE MONTH -->
     <!-- MAP-SECTION -->
-    <section class="map-section">
+    <section
+      id="Location"
+      class="map-section">
       <div>
         <h1>Our location</h1>
         <iframe
@@ -455,41 +494,40 @@
     <!-- / MAP-SECTION -->
     <!-- FOOTER -->
     <footer>
-      <div class="footer-inner">
+      <div
+        id="contact"
+        class="footer-inner">
         <article>
           <h1>Orario di lavoro</h1>
           <ul>
-            <li>Lunedì: 12-13:30 18-22:30</li>
-            <li>Martedì: chiuso</li>
-            <li>Mercoledì: 12-13:30, 18-22:30</li>
-            <li>Giovedì: 12-13:30, 18-22:30</li>
-            <li>Venerdì: 12-13:30, 18-22:30</li>
-            <li>Sabato: 12-13:30, 18-22:30</li>
-            <li>Domenica: 18:00 22:30</li>
+            <li><span>Lunedì:</span> 12-13:30 18-22:30</li>
+            <li><span>Martedì:</span> chiuso</li>
+            <li><span>Mercoledì:</span> 12-13:30, 18-22:30</li>
+            <li><span>Giovedì:</span> 12-13:30, 18-22:30</li>
+            <li><span>Venerdì:</span> 12-13:30, 18-22:30</li>
+            <li><span>Sabato:</span> 12-13:30, 18-22:30</li>
+            <li><span>Domenica:</span> 18:00 22:30</li>
           </ul>
         </article>
         <article>
           <h1>Quick Links</h1>
-          <ul>
-            <li>Lunedì: 12-13:30 18-22:30</li>
-            <li>Martedì: chiuso</li>
-            <li>Mercoledì: 12-13:30, 18-22:30</li>
-            <li>Giovedì: 12-13:30, 18-22:30</li>
-            <li>Venerdì: 12-13:30, 18-22:30</li>
-            <li>Sabato: 12-13:30, 18-22:30</li>
-            <li>Domenica: 18:00 22:30</li>
+          <ul class="quickLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="#About">About Us</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="#Location">Location</a></li>
           </ul>
         </article>
         <article>
           <h1>Contact Us</h1>
           <ul>
-            <li>Lunedì: 12-13:30 18-22:30</li>
-            <li>Martedì: chiuso</li>
-            <li>Mercoledì: 12-13:30, 18-22:30</li>
-            <li>Giovedì: 12-13:30, 18-22:30</li>
-            <li>Venerdì: 12-13:30, 18-22:30</li>
-            <li>Sabato: 12-13:30, 18-22:30</li>
-            <li>Domenica: 18:00 22:30</li>
+            <li>+39 0542 850132</li>
+            <li>
+              <img
+                src=""
+                alt="" />
+            </li>
           </ul>
         </article>
       </div>

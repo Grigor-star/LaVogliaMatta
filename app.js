@@ -17,3 +17,14 @@ function handleScroll() {
 
 // Attach the handleScroll function to the scroll event
 window.addEventListener("scroll", handleScroll);
+
+function setActive(element) {
+  // Remove the "active" class from all links
+  var links = document.querySelectorAll(".navbar a");
+  links.forEach(function (link) {
+    link.classList.remove("active");
+  });
+
+  // Add the "active" class to the clicked link
+  element.classList.add("active");
+}
