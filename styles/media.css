@@ -52,7 +52,8 @@
 @media screen and (max-width: 450px) {
   .main {
     background: url("../assets/main-bg-mobile.jpg") no-repeat center;
-    padding-bottom: 69px;
+    padding-bottom: 15vw;
+    background-size: cover;
   }
   .main-inner {
     padding-top: 0;
