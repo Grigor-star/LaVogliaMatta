@@ -70,8 +70,8 @@
   }
 
   .main-inner h1 {
-    font-size: 6vw;
-    margin-top: 20px;
+    font-size: 9vw;
+    margin-top: 60px;
     margin-bottom: 20px;
   }
 
@@ -80,22 +80,36 @@
   }
 
   .pizza-1 {
-    bottom: 9%;
+    width: 25vw;
+    bottom: -1%;
   }
 
   .pizza-2 {
-    width: 20vw;
+    width: 25vw;
     left: 50%;
     transform: translateX(-50%);
     bottom: -50px;
   }
 
   .pizza-3 {
-    bottom: 10%;
+    width: 17vw;
+    bottom: 0%;
   }
 
   .main-inner p {
+    font-size: 2.5vw;
+    margin-bottom: 50px;
+  }
+
+  .main-inner {
+    padding-bottom: 90px;
+  }
+
+  .btn {
     font-size: 2vw;
-    margin-bottom: 20px;
+    padding: 1vw 2.2vw;
+  }
+  .main-scrolled {
+    padding-top: 30px;
   }
 }
