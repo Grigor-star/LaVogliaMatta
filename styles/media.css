@@ -177,47 +177,62 @@
 
   .month-food h1 {
     text-align: center;
-    font-size: 6vw;
+    font-size: 7vw;
+  }
+
+  .mf-content {
+    width: 80vw;
   }
 
   .month-food p {
     margin-top: 15px;
     text-align: center;
-    font-size: 2vw;
+    font-size: 3vw;
   }
 
   .month-food article .item {
-    width: 30vw;
-    height: 36vw;
+    width: 47vw;
+    height: 57vw;
   }
 
   .month-food article .item img {
-    width: 30vw;
+    width: 47vw;
   }
 
   .month-food article {
     display: flex;
     gap: 20px;
+    flex-direction: column;
   }
 
   .month-food article .item div h3 {
-    font-size: 2.6vw;
+    margin-top: 10px;
+    font-size: 3.5vw;
   }
 
   .month-food article .item p {
     margin-top: 0;
-    text-align: left;
-    font-size: 1vw;
+    text-align: center;
+    font-size: 1.5vw;
     color: #75797f;
   }
 
   .month-food article .item div span h5 {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 
   .map-section h1 {
     font-size: 6vw;
     margin-bottom: 20px;
+  }
+
+  .month-food article .item div {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .month-food article .item div span {
+    margin-top: 10px;
   }
 
   iframe {
@@ -251,5 +266,29 @@
 
   .menu-item img {
     width: 17vw;
+  }
+
+  .aboutPizza {
+    content: url("/assets/aboutPizza-mobile.png");
+    width: 60vw;
+  }
+
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .about-section article {
+    width: 90vw;
+  }
+
+  .about-section article h1 {
+    font-size: 6vw;
+  }
+
+  .about-section article p {
+    margin-top: 30px;
+    font-size: 3vw;
   }
 }
