@@ -12,7 +12,7 @@ body {
   background-color: #f8f9fb;
   color: black;
   width: 100vw;
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 
 .container {
@@ -411,4 +411,8 @@ footer h1 {
 a {
   text-decoration: none;
   color: white;
+}
+
+.hamburger {
+  display: none;
 }

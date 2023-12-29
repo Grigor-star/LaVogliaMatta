@@ -51,7 +51,7 @@
 
 @media screen and (max-width: 450px) {
   .main {
-    background: url("../assets/main-bg-mobile.jpg") no-repeat center;
+    background: url("../assets/main-bg-mobile.png") no-repeat center;
     padding-bottom: 15vw;
     background-size: cover;
   }
@@ -112,5 +112,114 @@
   }
   .main-scrolled {
     padding-top: 30px;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    cursor: pointer;
+  }
+
+  .hamburger div {
+    content: " ";
+    width: 15px;
+    height: 1px;
+    background-color: white;
+  }
+
+  .logo h3 {
+    font-size: 3vw;
+  }
+
+  .menu {
+    margin-left: 0;
+    margin: 20px 0;
+  }
+
+  .menu-item {
+    width: 27vw;
+    height: 27vw;
+    border-radius: 20px;
+  }
+
+  .menu-section .menu-section-inner div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+  }
+
+  .about-section article p {
+    line-height: 150%;
+    margin-top: 10px;
+    font-size: 1.2vw;
+    color: #75797f;
+  }
+
+  .about-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;
+    padding-right: 50px;
+    background-color: white;
+  }
+
+  .month-food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 25px;
+  }
+
+  .month-food h1 {
+    text-align: center;
+    font-size: 4vw;
+  }
+
+  .month-food p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.5vw;
+  }
+
+  .month-food article .item {
+    width: 27vw;
+    height: 33vw;
+  }
+
+  .month-food article .item img {
+    width: 27vw;
+  }
+
+  .month-food article {
+    display: flex;
+    gap: 20px;
+  }
+
+  .month-food article .item div h3 {
+    font-size: 1.7vw;
+  }
+
+  .month-food article .item p {
+    margin-top: 0;
+    text-align: left;
+    font-size: 1vw;
+    color: #75797f;
+  }
+
+  .month-food article .item div span h5 {
+    font-size: 1.5vw;
+  }
+
+  .map-section h1 {
+    font-size: 4vw;
+    margin-bottom: 20px;
+  }
+
+  iframe {
+    height: 200px;
   }
 }
