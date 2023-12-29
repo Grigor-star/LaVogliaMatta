@@ -6,7 +6,7 @@
     font-size: 2vw;
   }
   .header-inner nav ul li a {
-    font-size: 1.7vw;
+    font-size: 2.6vw;
   }
 
   .pizza-3 {
@@ -18,8 +18,8 @@
   }
 
   .menu-item {
-    width: 26vw;
-    height: 26vw;
+    width: 30vw;
+    height: 30vw;
   }
 
   .menu-item img {
@@ -27,7 +27,7 @@
   }
 
   .menu-item div p {
-    font-size: 1.7vw;
+    font-size: 2.6vw;
   }
 
   .btn-2 {
@@ -37,7 +37,7 @@
 
   .month-food article .item {
     width: 23vw;
-    height: 27vw;
+    height: 30vw;
   }
 
   .month-food article .item img {
@@ -56,6 +56,7 @@
     background-size: cover;
   }
   .main-inner {
+    width: 90vw;
     padding-top: 0;
     margin: 0 auto;
     margin-top: 0;
@@ -71,7 +72,7 @@
   }
 
   .main-inner h1 {
-    font-size: 9vw;
+    font-size: 10vw;
     margin-top: 60px;
     margin-bottom: 20px;
   }
@@ -98,7 +99,7 @@
   }
 
   .main-inner p {
-    font-size: 2.5vw;
+    font-size: 3vw;
     margin-bottom: 50px;
   }
 
@@ -107,8 +108,8 @@
   }
 
   .btn {
-    font-size: 2vw;
-    padding: 1vw 2.2vw;
+    font-size: 3vw;
+    padding: 2vw 4.4vw;
   }
   .main-scrolled {
     padding-top: 30px;
@@ -117,19 +118,19 @@
   .hamburger {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 3px;
     cursor: pointer;
   }
 
   .hamburger div {
     content: " ";
-    width: 15px;
-    height: 1px;
+    width: 20px;
+    height: 2px;
     background-color: white;
   }
 
   .logo h3 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 
   .menu {
@@ -138,8 +139,8 @@
   }
 
   .menu-item {
-    width: 27vw;
-    height: 27vw;
+    width: 37vw;
+    height: 37vw;
     border-radius: 20px;
   }
 
@@ -176,22 +177,22 @@
 
   .month-food h1 {
     text-align: center;
-    font-size: 4vw;
+    font-size: 6vw;
   }
 
   .month-food p {
     margin-top: 15px;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
 
   .month-food article .item {
-    width: 27vw;
-    height: 33vw;
+    width: 30vw;
+    height: 36vw;
   }
 
   .month-food article .item img {
-    width: 27vw;
+    width: 30vw;
   }
 
   .month-food article {
@@ -200,7 +201,7 @@
   }
 
   .month-food article .item div h3 {
-    font-size: 1.7vw;
+    font-size: 2.6vw;
   }
 
   .month-food article .item p {
@@ -211,15 +212,44 @@
   }
 
   .month-food article .item div span h5 {
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
 
   .map-section h1 {
-    font-size: 4vw;
+    font-size: 6vw;
     margin-bottom: 20px;
   }
 
   iframe {
     height: 200px;
+  }
+
+  .menu-inner {
+    width: 1000vw;
+  }
+
+  .menu-section .menu-section-inner div h4 {
+    font-size: 4vw;
+  }
+
+  .menu-section .menu-section-inner div p {
+    font-size: 2vw;
+  }
+
+  .menu-item h3 {
+    font-size: 4vw;
+  }
+
+  .btn-2 {
+    font-size: 2vw;
+    padding: 1vw 2vw;
+  }
+
+  .menu-item div p {
+    font-size: 3vw;
+  }
+
+  .menu-item img {
+    width: 17vw;
   }
 }
