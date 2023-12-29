@@ -269,7 +269,7 @@
   }
 
   .aboutPizza {
-    content: url("/assets/aboutPizza-mobile.png");
+    content: url("../assets/aboutPizza-mobile.png");
     width: 60vw;
   }
 
