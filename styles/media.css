@@ -1,12 +1,30 @@
 @media screen and (max-width: 768px) {
+  .btn {
+    font-size: 1.7vw;
+    padding: 1vw 2.6vw;
+  }
+
+  .header-inner .nav ul {
+    display: flex;
+    gap: 20px;
+  }
+
+  .menu-section .menu-section-inner div h4 {
+    font-size: 3vw;
+  }
+
+  .menu-inner {
+    width: 1000vw;
+  }
+
   .main-inner h1 {
-    font-size: 7vw;
+    font-size: 6vw;
   }
   .main-inner p {
     font-size: 2vw;
   }
-  .header-inner nav ul li a {
-    font-size: 2.6vw;
+  .header-inner .nav ul li a {
+    font-size: 2vw;
   }
 
   .pizza-3 {
@@ -18,8 +36,8 @@
   }
 
   .menu-item {
-    width: 30vw;
-    height: 30vw;
+    width: 27vw;
+    height: 27vw;
   }
 
   .menu-item img {
@@ -27,17 +45,45 @@
   }
 
   .menu-item div p {
-    font-size: 2.6vw;
+    font-size: 2vw;
   }
 
   .btn-2 {
-    font-size: 1vw;
+    font-size: 1.2vw;
     padding: 0.5vw 1vw;
+  }
+
+  .month-food h1 {
+    font-size: 3vw;
+  }
+
+  .month-food p {
+    font-size: 1.5vw;
   }
 
   .month-food article .item {
     width: 23vw;
     height: 30vw;
+  }
+
+  .month-food article .item div h3 {
+    font-size: 1.7vw;
+  }
+
+  .month-food article .item p {
+    font-size: 1vw;
+  }
+
+  .footer-inner {
+    padding: 20px 100px;
+  }
+
+  .footer-inner ul li {
+    font-size: 1.5vw;
+  }
+
+  .footer-inner ul {
+    gap: 2px;
   }
 
   .month-food article .item img {
@@ -46,6 +92,19 @@
 
   .month-food article .item div span h5 {
     font-size: 1.2vw;
+  }
+
+  .copyright p {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 1.3vw;
+  }
+
+  .about-section article p {
+    line-height: 150%;
+    margin-top: 40px;
+    font-size: 1.5vw;
+    color: #75797f;
   }
 }
 
@@ -77,7 +136,7 @@
     margin-bottom: 20px;
   }
 
-  .header-inner nav {
+  .header-inner .nav {
     display: none;
   }
 
@@ -244,7 +303,7 @@
   }
 
   .menu-section .menu-section-inner div h4 {
-    font-size: 4vw;
+    font-size: 6vw;
   }
 
   .menu-section .menu-section-inner div p {
@@ -313,5 +372,69 @@
     margin: 10px 0;
     text-align: center;
     font-size: 1.7vw;
+  }
+
+  .hamburger-nav {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 70vw;
+    background-color: #762601;
+    transform: translateX(-100%);
+    border-bottom: 1px solid white;
+    transition: 0.5s;
+  }
+
+  .active {
+    transform: translateX(0);
+  }
+
+  .hamburger-nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    gap: 2vw;
+    margin-top: 10vw;
+  }
+
+  .hamburger-nav ul li {
+    list-style: none;
+  }
+
+  .hamburger-nav ul li a {
+    font-size: 4vw;
+  }
+
+  .hamburger-nav .close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  .hamburger-nav .close div {
+    width: 15px;
+    height: 1.5px;
+    background-color: white;
+  }
+
+  .hamburger-nav .close .one {
+    transform: translateY(1px);
+    rotate: 45deg;
+  }
+
+  .hamburger-nav .close .two {
+    transform: translateY(-1px);
+    transform: translateX(px);
+    rotate: -45deg;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .hamburger-nav {
+    display: none;
   }
 }

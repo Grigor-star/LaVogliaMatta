@@ -28,3 +28,13 @@ function setActive(element) {
   // Add the "active" class to the clicked link
   element.classList.add("active");
 }
+
+const handleHamburgerClick = () => {
+  const hamburgerMenu = document.querySelector(".hamburger-nav");
+  hamburgerMenu.classList.add("active");
+};
+
+const handleHamburgerClose = () => {
+  const hamburgerMenu = document.querySelector(".hamburger-nav");
+  hamburgerMenu.classList.remove("active");
+};

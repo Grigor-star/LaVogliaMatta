@@ -51,16 +51,16 @@ body {
   align-items: center;
 }
 
-.header-inner nav ul {
+.header-inner .nav ul {
   display: flex;
   gap: 30px;
 }
 
-.header-inner nav ul li {
+.header-inner .nav ul li {
   list-style: none;
 }
 
-.header-inner nav ul li a {
+.header-inner .nav ul li a {
   font-size: 1.5vw;
   color: white;
   text-decoration: none;
@@ -68,11 +68,11 @@ body {
   transition: 0.2s;
 }
 
-.header-inner nav ul li .active {
+.header-inner .nav ul li .active {
   opacity: 1;
 }
 
-.header-inner nav ul li a:hover {
+.header-inner .nav ul li a:hover {
   opacity: 1;
 }
 
