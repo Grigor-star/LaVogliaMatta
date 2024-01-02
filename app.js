@@ -55,7 +55,7 @@ const handleOrderClick = (num) => {
       const h3Value = h3Element.textContent.trim();
       const imgSrc = imgElement.src;
 
-      const baseUrl = `http://${window.location.host}/`;
+      const baseUrl = `https://${window.location.host}/LaVogliaMatta/`;
 
       // Use replace to remove the base URL
       const trimmedSrc = imgSrc.replace(baseUrl, "");
