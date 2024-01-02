@@ -429,3 +429,21 @@ a {
   text-align: center;
   font-size: small;
 }
+
+.order {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  z-index: 98;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #762601;
+}
+
+.order-inner {
+  display: flex;
+}
+
+.active-order {
+  display: block;
+}

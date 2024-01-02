@@ -38,3 +38,36 @@ const handleHamburgerClose = () => {
   const hamburgerMenu = document.querySelector(".hamburger-nav");
   hamburgerMenu.classList.remove("active");
 };
+
+let orderArray = [];
+
+const handleOrderClick = (num) => {
+  const menuItems = document.querySelectorAll(".menu-item");
+  menuItems.forEach((element, index) => {
+    if (index === num) {
+      // Select the p and h3 elements within the div
+      const pElement = element.querySelector("p");
+      const h3Element = element.querySelector("h3");
+      const imgElement = element.querySelector("img");
+
+      // Get the values of the p and h3 elements
+      const pValue = pElement.textContent.trim();
+      const h3Value = h3Element.textContent.trim();
+      const imgSrc = imgElement.src;
+
+      const baseUrl = `http://${window.location.host}/`;
+
+      // Use replace to remove the base URL
+      const trimmedSrc = imgSrc.replace(baseUrl, "");
+
+      // Now, you can use pValue and h3Value as needed
+      console.log(element);
+      console.log(imgSrc);
+      console.log(trimmedSrc);
+      console.log("Price:", pValue);
+      console.log("Name:", h3Value);
+      console.log(window.location.host);
+      console.log(window.location.pathname);
+    }
+  });
+};
